@@ -1,8 +1,8 @@
-# Express Controller
+# Express Controller Routing
 A simple way to create and test Express routes
 
 ## Install
-    $ npm install express-controller
+    $ npm install express-controller-routing
 
 
 ## Usage
@@ -39,7 +39,7 @@ module.exports = {
 ```
 Register this newly created controller in app.js
 ```javascript
-const controller = require('express-controller');
+const controller = require('express-controller-routing');
 const express = require('express');
 const app = express();
 
